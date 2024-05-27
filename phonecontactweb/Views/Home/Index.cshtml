@@ -1,0 +1,14 @@
+﻿
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+   <button id="button" class="w-10 btn btn-sm btn-primary">ContactBook</button>
+   <script>
+       document.getElementById("button").onclick = function () {
+    location.href = "http://localhost:5248/Contactphonebook";
+       }
+   </script>
+</div>
